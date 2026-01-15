@@ -1,8 +1,8 @@
 # 📊 ETL de Consumo de Energia Elétrica
 
-Projeto de ETL (Extract, Transform, Load) desenvolvido em Python com Pandas,
-simulando o processamento de medições mensais de consumo de energia elétrica
-de clientes de uma concessionária.
+Projeto de ETL (Extract, Transform, Load) desenvolvido em Python com Pandas, simulando o processamento de medições mensais de consumo de energia elétrica de clientes de uma concessionária.
+
+Este notebook lê um CSV de consumo mensal, calcula o valor da conta (com tarifa), classifica o nível de consumo e salva os resultados em CSV.
 
 ---
 
@@ -53,17 +53,10 @@ notebooks/01_etl_consumo_mensal_energia.ipynb
 ```
 
 ### 5️⃣ O que fazer após a execução
-- Interromper o notebook:
-  
-```bash
-Pressione ctrl + c no seu teclado
-```
+- Interromper o notebook: `Ctrl + C`
+- Desativar o ambiente virtual: `deactivate`
+- Verificar os dados gerados em `data/saida`
 
-- Desativar o ambiente virtual:
-```bash
-deactivated
-```
-- Verificar os dados gerados nas pastas data/saida
 
 ## 📥 Dados de Entrada
 Este é o arquivo CSV contendo medições mensais de consumo de energia.
